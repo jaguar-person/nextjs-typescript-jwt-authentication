@@ -1,0 +1,15 @@
+{
+  "extends": "./frontend/tsconfig.json",
+  "compilerOptions": {
+    "noEmit": false,
+    "outDir": "dist",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "target": "es6",
+    "noImplicitAny": true,
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "baseUrl": "backend"
+  },
+  "include": ["backend/**/*", "global.d.ts"]
+}
